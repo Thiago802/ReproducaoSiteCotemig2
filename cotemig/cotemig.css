@@ -1,0 +1,161 @@
+* {margin:0 ;
+box-sizing: border-box;
+
+}
+
+
+.top {  
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 70%);
+    width: 100%;
+    height: 60px;
+  display: flex;
+    justify-content: space-around;
+    
+    z-index: 1;
+}
+
+.ban {
+    border: solid ;
+    width: 100%;
+    height: 100%;
+    position: top 0;
+
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 180px;
+    color: white;
+    font-size: 35px;
+    left: 300px;
+    
+}
+
+.text2 {
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.text3 { 
+    font-family: 'Open Sans', sans-serif;
+     color: black;
+display: flex;
+    justify-content: center;
+    font-size: 30px;
+    left: 680px;
+    top: 589px;
+}
+
+.text4 {
+    font-family: 'Open Sans', sans-serif;
+     color: black;
+    position: absolute;
+    top: 650px;
+    left: 650px;
+}
+
+.text5 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+   position: absolute;
+   top: 686px;
+ left: 725px;
+}
+
+.text6 {
+font-family: 'Open Sans', sans-serif;
+color: black;
+display: flex;
+justify-content: center;
+font-size: 30px;
+position: absolute;
+left: 820px;
+top: 1009px;
+}
+
+.text7 {
+    font-family: 'Open Sans', sans-serif;
+color: black;
+display: flex;
+position: absolute;
+top: 1100px;
+left: 600px;
+}
+
+.text8{
+    font-family: 'Open Sans', sans-serif;
+color: black;
+display: flex;
+position: absolute;
+top: 1130px;
+left: 600px;
+}
+
+.victor {
+   margin-top: -60px;
+}
+ a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover {color: #5DF05F ;
+text-decoration: none;
+}
+
+ 
+
+.lista {
+    display: inline-block;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.botao {
+    margin-left:490px;
+border-radius: 10px;
+padding: 14px;
+width:320px ;
+height: 46px;
+background-color: rgb(77, 151, 41);
+z-index: 1;
+text-align: center;
+color: white;
+font-family: 'Open Sans', sans-serif;
+position: absolute;
+top: 310px;
+left: -180px;
+}
+
+li {margin: 10px;}
+
+
+
+.caixas {
+    position: absolute;
+    top: 970px;
+    overflow: hidden;
+}
+
+.bloco {overflow: hidden;
+display:flex;
+justify-content: center;
+border-radius: 0.7px;
+
+}
+    
+.bloquinhos {
+    width: 284px;
+    height: 175px;
+   box-shadow: black;
+}
+.bloquinhos img{
+    width: 100%;
+    height: 100%;
+}
